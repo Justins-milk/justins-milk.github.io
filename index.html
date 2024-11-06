@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin's Milk Frenzy</title>
+    <link rel="icon" href="./media/justin_avatar.png" type="image/png">
+    <style>
+        /* Apply a full-page background image */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Stack title and subtitle vertically */
+            background-image: url('./stallions.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Use Comic Sans for everything */
+            text-align: center;
+        }
+
+        /* Centered title styling */
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #FFFFFF; /* Black text color */
+            text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.7); /* Light shadow for contrast */
+            margin: 0;
+        }
+
+        /* Subtitle styling */
+        h2 {
+            font-size: 1.5rem;
+            font-weight: normal;
+            color: rgba(255, 255, 255, 0.8); /* Slightly transparent black */
+            text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.6); /* Light shadow for contrast */
+            margin-top: 0.5rem; /* Space between title and subtitle */
+        }
+
+        .button-link {
+            display: inline-block;
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            font-size: 1.2rem;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none; /* Remove underline from link */
+            border-radius: 5px; /* Rounded corners */
+            margin-top: 20px; /* Space between subtitle and button */
+            transition: background-color 0.3s ease; /* Smooth hover transition */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Justin's Milk Frenzy: Almond Attack</h1>
+    <h2>Justin is being force fed almond milk! Oh no! <br>Dodge the almond milks, and eat parmesean cheese packets to recover health. You have three HP.<br>WASD to move, space to use your friend Ryan as a human shield.</h2>
+    <a href="./build/web/game.html" class="button-link">Start</a>
+    <a href="./rules.html" class="button-link">More Info</a>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin's Milk Frenzy: Info</title>
+    <link rel="icon" href="./media/justin_avatar.png" type="image/png">
+    <style>
+        /* Apply a full-page background image */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Stack title and subtitle vertically */
+            background-image: url('./stallions.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Use Comic Sans for everything */
+            text-align: center;
+            color: #FFFFFF; /* Set default text color to white */
+        }
+
+        /* Centered title styling */
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #FFFFFF; /* White text color */
+            text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.7); /* Light shadow for contrast */
+            margin: 0;
+        }
+
+        /* Subtitle styling */
+        h2 {
+            font-size: 1.5rem;
+            font-weight: normal;
+            color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+            text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.6); /* Light shadow for contrast */
+            margin-top: 0.5rem; /* Space between title and subtitle */
+        }
+
+        /* Bulleted list for the rules */
+        ul {
+            text-align: left;
+            list-style-type: disc;
+            padding-left: 2rem; /* Indentation for the list */
+            margin-top: 20px;
+        }
+
+        li {
+            font-size: 1.2rem;
+            margin: 10px 0; /* Spacing between list items */
+        }
+
+        .button-link {
+            display: inline-block;
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            font-size: 1.2rem;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none; /* Remove underline from link */
+            border-radius: 5px; /* Rounded corners */
+            margin-top: 20px; /* Space between subtitle and button */
+            transition: background-color 0.3s ease; /* Smooth hover transition */
+        }
+
+        .button-link:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Justin's Milk Frenzy: Rules</h1>
+    <h2>Here's how the game works:</h2>
+    <ul>
+        <li>You start with 3 HP. Every hit from an almond milk loses you 1 HP.</li>
+        <li>By pressing space, you can throw out your friend Ryan to absorb attacks for you. Hit an almond milk with Ryan three times to destroy it. You will shoot in the direction you are moving.</li>
+        <li>Parmesean cheese packets replenish your health; 1 HP each time you hit them, up to 3 HP per packet.</li>
+        <li>Be careful -- almond milks can also heal if they run into a cheese packet, and shooting one with Ryan will cause you to waste a potential heal.</li>
+        <li>Almond milks will spawn every 5 seconds, each time increasing their chase speed and their spawn number.</li>
+        <li>New cheese packets will spawn every 15 seconds for you to heal.</li>
+        <li>The game ends when you die and have your insides flooded with almond milk.</li>
+
+    </ul>
+    <a href="./index.html" class="button-link">Back to Start</a>
+</body>
+</html>

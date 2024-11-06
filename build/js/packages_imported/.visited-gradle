@@ -1,0 +1,25 @@
+{
+  "version": "9",
+  "items": {
+    "45cba01ede1209c6153b901ca47c4037": {
+      "src": "/Users/ramseyalsheikh/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.9.10/dafaf2c27f27c09220cee312df10917d9a5d97ce/kotlin-stdlib-common-1.9.10.jar"
+    },
+    "0ffdceb4847380e2dcfbd909170a9a1d": {
+      "src": "/Users/ramseyalsheikh/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-js/1.6.0/8da0ad64ba616b5274fc5cdc07656912e1eea71d/kotlinx-serialization-json-js-1.6.0.klib"
+    },
+    "d356df8ed21c63fbacf8d7ef87b6eaa0": {
+      "src": "/Users/ramseyalsheikh/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-js/1.6.0/bb589ecd997c9b459f15b06ff4639bc6cabf522d/kotlinx-serialization-core-js-1.6.0.klib"
+    },
+    "b80541907dc807bb0c71a873303da7bb": {
+      "src": "/Users/ramseyalsheikh/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-dom-api-compat/1.9.10/1b041c52cdffabd603a1a78305d81634509894e3/kotlin-dom-api-compat-1.9.10.klib"
+    },
+    "56d8e379b23411acf8c1920427a2676f": {
+      "src": "/Users/ramseyalsheikh/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.9.10/90dbf75d93b263d04217e3ca8638d20c1b550d74/kotlin-stdlib-js-1.9.10.jar",
+      "target": "kotlin/1.9.10"
+    },
+    "a184ada5fc39ff87820c96cbe1c50374": {
+      "src": "/Users/ramseyalsheikh/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-js-runner/1.9.10/1f62a2ce37526998657c73198ba576bef3958474/kotlin-test-js-runner-1.9.10.jar",
+      "target": "kotlin-test-js-runner/0.0.1"
+    }
+  }
+}

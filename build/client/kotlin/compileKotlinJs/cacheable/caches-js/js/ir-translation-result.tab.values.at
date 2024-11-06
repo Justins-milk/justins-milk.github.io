@@ -1,0 +1,132 @@
+ity:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-jump_force> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>) returnType:kotlin.FloatFUN DEFAULT_PROPERTY_ACCESSOR name:<set-jump_force> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>, <set-?>:kotlin.Float) returnType:kotlin.UnitPROPERTY name:hit_ground visibility:public modality:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-hit_ground> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>) returnType:kotlin.BooleanFUN DEFAULT_PROPERTY_ACCESSOR name:<set-hit_ground> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>, <set-?>:kotlin.Boolean) returnType:kotlin.UnitPROPERTY name:lastT visibility:public modality:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-lastT> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>) returnType:kotlin.FloatFUN DEFAULT_PROPERTY_ACCESSOR name:<set-lastT> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>, <set-?>:kotlin.Float) returnType:kotlin.UnitPROPERTY name:lastTB visibility:public modality:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-lastTB> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>) returnType:kotlin.FloatFUN DEFAULT_PROPERTY_ACCESSOR name:<set-lastTB> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>, <set-?>:kotlin.Float) returnType:kotlin.UnitPROPERTY name:enemySpeed visibility:public modality:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-enemySpeed> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>) returnType:kotlin.FloatFUN DEFAULT_PROPERTY_ACCESSOR name:<set-enemySpeed> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>, <set-?>:kotlin.Float) returnType:kotlin.UnitPROPERTY name:enemyCount visibility:public modality:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-enemyCount> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>) returnType:kotlin.IntFUN DEFAULT_PROPERTY_ACCESSOR name:<set-enemyCount> visibility:public modality:FINAL <> ($this:<root>.Scene.avatar.<no name provided>, <set-?>:kotlin.Int) returnType:kotlin.UnitFUN name:control visibility:public modality:OPEN <> ($this:<root>.Scene.avatar.<no name provided>, dt:kotlin.Float, t:kotlin.Float, keysPressed:kotlin.collections.Set<kotlin.String>, gameObjects:kotlin.collections.List<<root>.GameObject>) returnType:kotlin.BooleanPROPERTY FAKE_OVERRIDE name:position visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-position> visibility:public modality:FINAL <> ($this:<root>.GameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:velocity visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-velocity> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:torque visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-torque> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject, <set-?>:kotlin.Float) returnType:kotlin.Unit [fake_override]PROPERTY FAKE_OVERRIDE name:acceleration visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-acceleration> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:angularVelocity visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-angularVelocity> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject, <set-?>:kotlin.Float) returnType:kotlin.Unit [fake_override]PROPERTY FAKE_OVERRIDE name:angularAcceleration visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-angularAcceleration> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject, <set-?>:kotlin.Float) returnType:kotlin.Unit [fake_override]PROPERTY FAKE_OVERRIDE name:force visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-force> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]CLASS CLASS name:<no name provided> modality:FINAL visibility:local superTypes:[<root>.PhysicsGameObject]CONSTRUCTOR visibility:public <> () returnType:<root>.Scene.chase.<no name provided> [primary]PROPERTY name:forceX visibility:public modality:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-forceX> visibility:public modality:FINAL <> ($this:<root>.Scene.chase.<no name provided>) returnType:kotlin.FloatFUN DEFAULT_PROPERTY_ACCESSOR name:<set-forceX> visibility:public modality:FINAL <> ($this:<root>.Scene.chase.<no name provided>, <set-?>:kotlin.Float) returnType:kotlin.UnitPROPERTY name:forceY visibility:public modality:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-forceY> visibility:public modality:FINAL <> ($this:<root>.Scene.chase.<no name provided>) returnType:kotlin.FloatFUN DEFAULT_PROPERTY_ACCESSOR name:<set-forceY> visibility:public modality:FINAL <> ($this:<root>.Scene.chase.<no name provided>, <set-?>:kotlin.Float) returnType:kotlin.UnitPROPERTY name:chaseSpeed visibility:public modality:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-chaseSpeed> visibility:public modality:FINAL <> ($this:<root>.Scene.chase.<no name provided>) returnType:kotlin.FloatFUN DEFAULT_PROPERTY_ACCESSOR name:<set-chaseSpeed> visibility:public modality:FINAL <> ($this:<root>.Scene.chase.<no name provided>, <set-?>:kotlin.Float) returnType:kotlin.UnitPROPERTY name:lastRoll visibility:public modality:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-lastRoll> visibility:public modality:FINAL <> ($this:<root>.Scene.chase.<no name provided>) returnType:kotlin.FloatFUN DEFAULT_PROPERTY_ACCESSOR name:<set-lastRoll> visibility:public modality:FINAL <> ($this:<root>.Scene.chase.<no name provided>, <set-?>:kotlin.Float) returnType:kotlin.UnitFUN name:control visibility:public modality:OPEN <> ($this:<root>.Scene.chase.<no name provided>, dt:kotlin.Float, t:kotlin.Float, keysPressed:kotlin.collections.Set<kotlin.String>, gameObjects:kotlin.collections.List<<root>.GameObject>) returnType:kotlin.BooleanPROPERTY FAKE_OVERRIDE name:position visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-position> visibility:public modality:FINAL <> ($this:<root>.GameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:force visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-force> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:roll visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-roll> visibility:public modality:FINAL <> ($this:<root>.GameObject, <set-?>:kotlin.Float) returnType:kotlin.Unit [fake_override]PROPERTY FAKE_OVERRIDE name:velocity visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-velocity> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:health visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-health> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject, <set-?>:kotlin.Int) returnType:kotlin.Unit [fake_override]PROPERTY FAKE_OVERRIDE name:damage visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-damage> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject, <set-?>:kotlin.Int) returnType:kotlin.Unit [fake_override]PROPERTY FAKE_OVERRIDE name:name visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-name> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject, <set-?>:kotlin.String) returnType:kotlin.Unit [fake_override]CLASS CLASS name:<no name provided> modality:FINAL visibility:local superTypes:[<root>.PhysicsGameObject]CONSTRUCTOR visibility:public <> () returnType:<root>.Scene.bounce.<no name provided> [primary]PROPERTY name:forceX visibility:public modality:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-forceX> visibility:public modality:FINAL <> ($this:<root>.Scene.bounce.<no name provided>) returnType:kotlin.FloatFUN DEFAULT_PROPERTY_ACCESSOR name:<set-forceX> visibility:public modality:FINAL <> ($this:<root>.Scene.bounce.<no name provided>, <set-?>:kotlin.Float) returnType:kotlin.UnitPROPERTY name:forceY visibility:public modality:FINAL [var]FUN DEFAULT_PROPERTY_ACCESSOR name:<get-forceY> visibility:public modality:FINAL <> ($this:<root>.Scene.bounce.<no name provided>) returnType:kotlin.FloatFUN DEFAULT_PROPERTY_ACCESSOR name:<set-forceY> visibility:public modality:FINAL <> ($this:<root>.Scene.bounce.<no name provided>, <set-?>:kotlin.Float) returnType:kotlin.UnitFUN name:control visibility:public modality:OPEN <> ($this:<root>.Scene.bounce.<no name provided>, dt:kotlin.Float, t:kotlin.Float, keysPressed:kotlin.collections.Set<kotlin.String>, gameObjects:kotlin.collections.List<<root>.GameObject>) returnType:kotlin.BooleanPROPERTY FAKE_OVERRIDE name:force visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-force> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:position visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-position> visibility:public modality:FINAL <> ($this:<root>.GameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:velocity visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-velocity> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:health visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-health> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject, <set-?>:kotlin.Int) returnType:kotlin.Unit [fake_override]PROPERTY FAKE_OVERRIDE name:damage visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-damage> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject, <set-?>:kotlin.Int) returnType:kotlin.Unit [fake_override]PROPERTY FAKE_OVERRIDE name:name visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-name> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject, <set-?>:kotlin.String) returnType:kotlin.Unit [fake_override]CLASS CLASS name:<no name provided> modality:FINAL visibility:local superTypes:[<root>.PhysicsGameObject]CONSTRUCTOR visibility:public <> () returnType:<root>.Scene.fire.<no name provided> [primary]FUN name:control visibility:public modality:OPEN <> ($this:<root>.Scene.fire.<no name provided>, dt:kotlin.Float, t:kotlin.Float, keysPressed:kotlin.collections.Set<kotlin.String>, gameObjects:kotlin.collections.List<<root>.GameObject>) returnType:kotlin.BooleanPROPERTY FAKE_OVERRIDE name:force visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-force> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:position visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-position> visibility:public modality:FINAL <> ($this:<root>.GameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:velocity visibility:public modality:FINAL [fake_override,val]FUN FAKE_OVERRIDE name:<get-velocity> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject) returnType:vision.gears.webglmath.Vec3 [fake_override]PROPERTY FAKE_OVERRIDE name:damage visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-damage> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject, <set-?>:kotlin.Int) returnType:kotlin.Unit [fake_override]PROPERTY FAKE_OVERRIDE name:name visibility:public modality:FINAL [fake_override,var]FUN FAKE_OVERRIDE name:<set-name> visibility:public modality:FINAL <> ($this:<root>.PhysicsGameObject, <set-?>:kotlin.String) returnType:kotlin.Unit [fake_override]FUN LOCAL_FUNCTION_FOR_LAMBDA name:<anonymous> visibility:local modality:FINAL <> (it:<root>.GameObject) returnType:kotlin.UnitFUN LOCAL_FUNCTION_FOR_LAMBDA name:<anonymous> visibility:local modality:FINAL <> (it:<root>.GameObject) returnType:kotlin.UnitFUN LOCAL_FUNCTION_FOR_LAMBDA name:<anonymous> visibility:local modality:FINAL <> (it:<root>.GameObject) returnType:kotlin.Unit
+‚„– ¥€"$
+"
+€>
+z†ç„" H £" c•"”£ëë ãìë 
+Ô
+Ñ
+€šÊ
+Ã
+
+À
+
+¶
+Ò²
+;Q
+O
+FD€ž>
+"†Â-=Ž„"%
+#
+€À
+
+z†£†„" H ·ˆ„""= >Œ‘„"Q
+O
+FD€ž>
+"†Ê.?š‹„"%
+#
+€È
+
+z†§¤„" H É£„""? @º›„"Q
+O
+FD€ž>
+"†Ò/AÏ©„"%
+#
+€Ð
+
+z†æ®„" H ˆƒ…""A Bï¹„"Q
+O
+FD€ž>
+"†Ú0CŽ‰…"%
+#
+€Ø
+
+z†£Ž…" H ¡…""C D®™…"Q
+O
+FD€ž>
+"†€6EÁ¦…"%
+#
+€À
+
+z†ó¬…" H §€""E Fë³…"Q
+O
+FD€ž>
+"†„7G€†"%
+#
+€È
+
+z†²Œ" H Ì‹""G H –"Q
+O
+FD€ž>
+"†ˆ8IÐ¤"%
+#
+€Ð
+
+z†¢¬" H œ«""I Jð´"Q
+O
+FD€ž>
+"†Œ9KÀ„‘"%
+#
+€Ø
+
+z†ò†‘" H Œ‹‘""K Là”‘"Q
+O
+FD€ž>
+"†â1MÎ¡‘"%
+#
+€à
+
+z†ã¦‘" H Ý©‘""M Nî±‘"Q
+O
+FD€ž>
+"†ž)O¡”"%
+#
+€œ
+
+z†£†”" H Ÿˆ”""O Pƒ‘”"Q
+O
+FD€ž>
+"†ª*Q¤‹”"%
+#
+€¨
+
+z†¦¤”" H À£”""Q R¬›”"Q
+O
+FD€ž>
+"†²+Sà©”"%
+#
+€°
+
+z†â®”" H Ô•""S Tè¹”"Q
+O
+FD€ž>
+"†º,Uôƒ•"%
+#
+€¸
+
+z†öŒ•" H ¡•""U Vü“•"Q
+O
+FD€ž>
+"†ê2W¦•"%
+#
+€è
+
+z†â¬•" H Ü«•""W X°¶•"Q
+O
+FD€ž>
+"†ö4Y€†À"%
+#
+€è
+
+z†²ŒÀ" H Ì‹À""Y Z –À"Q
+O
+FD€ž>
+"†ò3[Ø¤À"%
+#
+€ð
+
+z†¦¬À" H à«À""[ \ÐµÀ"<Œ€®""# $›­#ì´#">
+<ì´#5
+,š)€Ü#
+r
+ƒ˜
+‚‹ ì´#$ì´#ì´#   vision.gears.webglmath   \      TFIELD PROPERTY_BACKING_FIELD name:name type:kotlin.String visibility:private [final]
