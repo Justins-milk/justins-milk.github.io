@@ -22,21 +22,43 @@
             text-align: center;
         }
 
+        /* Container for title and splash text */
+        .title-container {
+            position: relative; /* Needed for positioning the splash text inside this container */
+            display: inline-block; /* Keep the title and splash text together */
+        }
+
         /* Centered title styling */
         h1 {
             font-size: 4rem;
             font-weight: bold;
-            color: #FFFFFF; /* Black text color */
-            text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.7); /* Light shadow for contrast */
+            color: #FFFFFF; /* White text color */
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Dark shadow for contrast */
             margin: 0;
+        }
+
+        /* Splash text styling (aligned to the bottom-right of the title) */
+        .splash {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: yellow; /* Bright yellow color */
+            text-shadow: 
+                0 0 3px black, /* Small black outline */
+                0 0 5px black, /* Bigger black outline */
+                0 0 8px black, /* Larger black outline */
+                0 0 10px black; /* Even larger black outline */
+            position: absolute; /* Absolute position relative to the h1 */
+            bottom: -1rem; /* Positioned just below the title */
+            right: 0; /* Position at the right of the title */
+            transform: rotate(-10deg); /* Slight rotation for style */
         }
 
         /* Subtitle styling */
         h2 {
             font-size: 1.5rem;
             font-weight: normal;
-            color: rgba(255, 255, 255, 0.8); /* Slightly transparent black */
-            text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.6); /* Light shadow for contrast */
+            color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+            text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6); /* Light shadow for contrast */
             margin-top: 0.5rem; /* Space between title and subtitle */
         }
 
@@ -56,9 +78,31 @@
     </style>
 </head>
 <body>
-    <h1>Justin's Milk Frenzy: Almond Attack</h1>
-    <h2>Justin is being force fed almond milk! Oh no! <br>Dodge the almond milks, and eat parmesean cheese packets to recover health. You have three HP.<br>WASD to move, space to use your friend Ryan as a human shield.</h2>
+    <div class="title-container">
+        <h1>Justin's Milk Frenzy: Almond Attack</h1>
+        <div class="splash" id="splash-text"></div>
+    </div>
+    
+    <h2>Justin is being force fed almond milk! Oh no! <br>Dodge the almond milks, and eat parmesan cheese packets to recover health. You have three HP.<br>WASD to move, space to use your friend Ryan as a human shield.</h2>
     <a href="./build/web/game.html" class="button-link">Start</a>
     <a href="./rules.html" class="button-link">More Info</a>
+
+    <script>
+        // Array of splash texts
+        const splashTexts = [
+            "Official Release!",
+            "Now with more powerups!",
+            "Actually see your health!",
+            "Better movement!",
+            "Shoot in both directions!",
+            "Multishot!"
+        ];
+
+        // Select a random splash text
+        const randomSplash = splashTexts[Math.floor(Math.random() * splashTexts.length)];
+
+        // Set the splash text in the HTML
+        document.getElementById('splash-text').innerText = randomSplash;
+    </script>
 </body>
 </html>
