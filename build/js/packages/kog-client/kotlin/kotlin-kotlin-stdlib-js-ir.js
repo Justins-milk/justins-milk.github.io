@@ -67,7 +67,7 @@ if (typeof Math.imul === 'undefined') {
   setMetadataFor(Entry, 'Entry', interfaceMeta);
   setMetadataFor(MutableEntry, 'MutableEntry', interfaceMeta, VOID, [Entry]);
   setMetadataFor(SimpleEntry, 'SimpleEntry', classMeta, VOID, [MutableEntry]);
-  setMetadataFor(AbstractMutableSet, 'AbstractMutableSet', classMeta, AbstractMutableCollection, [AbstractMutableCollection, Set, Collection]);
+  setMetadataFor(AbstractMutableSet, 'AbstractMutableSet', classMeta, AbstractMutableCollection, [AbstractMutableCollection, Collection, Set]);
   setMetadataFor(AbstractEntrySet, 'AbstractEntrySet', classMeta, AbstractMutableSet);
   setMetadataFor(AbstractMutableMap$keys$1, VOID, classMeta, AbstractMutableSet);
   setMetadataFor(AbstractMutableMap, 'AbstractMutableMap', classMeta, AbstractMap, [AbstractMap, Map]);
@@ -76,7 +76,7 @@ if (typeof Math.imul === 'undefined') {
   setMetadataFor(HashCode, 'HashCode', objectMeta);
   setMetadataFor(EntrySet, 'EntrySet', classMeta, AbstractEntrySet);
   setMetadataFor(HashMap, 'HashMap', classMeta, AbstractMutableMap, [AbstractMutableMap, Map]);
-  setMetadataFor(HashSet, 'HashSet', classMeta, AbstractMutableSet, [AbstractMutableSet, Set, Collection]);
+  setMetadataFor(HashSet, 'HashSet', classMeta, AbstractMutableSet, [AbstractMutableSet, Collection, Set]);
   setMetadataFor(InternalHashCodeMap$iterator$1, VOID, classMeta);
   function createJsMap() {
     var result = Object.create(null);
@@ -95,7 +95,7 @@ if (typeof Math.imul === 'undefined') {
   setMetadataFor(EntrySet_0, 'EntrySet', classMeta, AbstractEntrySet);
   setMetadataFor(LinkedHashMap, 'LinkedHashMap', classMeta, HashMap, [HashMap, Map]);
   setMetadataFor(Companion_7, 'Companion', objectMeta);
-  setMetadataFor(LinkedHashSet, 'LinkedHashSet', classMeta, HashSet, [HashSet, Set, Collection]);
+  setMetadataFor(LinkedHashSet, 'LinkedHashSet', classMeta, HashSet, [HashSet, Collection, Set]);
   setMetadataFor(KClass, 'KClass', interfaceMeta);
   setMetadataFor(KClassImpl, 'KClassImpl', classMeta, VOID, [KClass]);
   setMetadataFor(PrimitiveKClassImpl, 'PrimitiveKClassImpl', classMeta, KClassImpl);
